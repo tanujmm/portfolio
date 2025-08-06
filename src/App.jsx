@@ -11,7 +11,7 @@ import { Toaster } from "react-hot-toast";
 function App() {
   return (
     <>
-      <div>
+      <div className="bg-gradient-to-b from-gray-100 via-white to-gray-200 min-h-screen">
         <Navbar />
         <Home />
         <About />
